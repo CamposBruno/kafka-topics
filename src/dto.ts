@@ -4,7 +4,7 @@ class SendTransaction {
     recipient: string
     walletId: number
     approved: boolean
-    status: string
+    status: TransactionStatus
     createdAt: Date
     updatedAt: Date
 }
@@ -18,4 +18,12 @@ export class SendTransactionETH extends SendTransaction {
     hash?: string
     gas?: string
     gasLimit?: string
+}
+
+export enum TransactionStatus {
+    PENDING = 'pending',
+    APPROVED = 'aproved',
+    REJECTED = 'rejected',
+    PROCESSING = 'processing',
+    CONFIRMED = 'confirmed'
 }
