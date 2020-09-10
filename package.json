@@ -1,0 +1,21 @@
+{
+  "name": "kafka-topics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamposBruno/kafka-topics.gi"
+  }
+}
