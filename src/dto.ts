@@ -4,7 +4,7 @@ class SendTransaction {
     recipient: string
     walletId: number
     approved: boolean
-    status: TransactionStatus
+    status: TransactionStatus = TransactionStatus.PENDING
     createdAt: Date
     updatedAt: Date
 }
