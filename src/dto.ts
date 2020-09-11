@@ -25,5 +25,6 @@ export enum TransactionStatus {
     APPROVED = 'aproved',
     REJECTED = 'rejected',
     PROCESSING = 'processing',
-    CONFIRMED = 'confirmed'
+    CONFIRMED = 'confirmed',
+    FAILED = 'failed'
 }
