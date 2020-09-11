@@ -8,6 +8,7 @@ class SendTransaction {
     createdAt: Date
     updatedAt: Date
     failedReason?: string
+    address?: string
 }
 
 export class SendTransactionBTC extends SendTransaction {    
