@@ -7,6 +7,7 @@ class SendTransaction {
     status: TransactionStatus = TransactionStatus.PENDING
     createdAt: Date
     updatedAt: Date
+    failedReason?: string
 }
 
 export class SendTransactionBTC extends SendTransaction {    
