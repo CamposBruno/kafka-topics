@@ -11,7 +11,7 @@ class SendTransaction {
 }
 
 export class SendTransactionBTC extends SendTransaction {    
-    txid?: string
+    hash?: string
     statoshis?: string
 }
 
