@@ -24,7 +24,7 @@ export class SendTransactionETH extends SendTransaction {
 
 export enum TransactionStatus {
     PENDING = 'pending',
-    APPROVED = 'aproved',
+    APPROVED = 'approved',
     REJECTED = 'rejected',
     PROCESSING = 'processing',
     CONFIRMED = 'confirmed',
